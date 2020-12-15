@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Work+Sans:wght@200&display=swap');
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-image: url('../img/emilia-home.jpg');
+    background-repeat: no-repeat;
+    background-size: 80% 100vh;
+    background-position:right top;
+}
+
+
+.lista{
+    list-style: none;
+    line-height: 40px;
+    margin: 2em 0em ;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.lista li a.cada_lista{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.home_redes{
+    width: 14px;
+    height: 14px;
+    margin: 1px;
+    color: black;
+}
+.fa-twitter:hover{
+color: darkcyan;
+}
+.fa-facebook-f:hover{
+    color: blue;
+}
+.fa-spotify:hover{
+    color: green;
+}
+.fa-instagram:hover{
+    color: magenta;
+}
+.fa-youtube:hover{
+    color: red;
+}
+h1{
+    margin: 200px 0px 300px 40px ;
+    font-size: 2.4em;
+    font-family: 'Work Sans', sans-serif;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    padding-left: 0.2em;
+    box-sizing: border-box;
+    font-size: 5em;
+    background-color: rgba(243, 243, 243, 0.2);
+}
+

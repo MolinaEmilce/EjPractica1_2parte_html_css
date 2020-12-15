@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Work+Sans:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/emilia-music-top.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 7%;
+}
+
+#about_lista{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.486);
+    margin-top: 30px;
+    text-align: right;
+    padding: 30px 0px 30px 0px;
+}
+#about_lista li{
+    display: inline;
+}
+#about_lista li a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid black;
+}
+#about_lista li:last-child{
+    margin-right: 10px;
+    border-right: 1px solid black;
+
+}
+/************************************/
+#about_redes{
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+}
+#about_redes li{
+    display: inline;
+    margin: 5px;
+}
+#about_redes li a{
+    color: black;
+}
+
+.fa-twitter:hover{
+    color: darkcyan;
+}
+.fa-facebook-f:hover{
+    color: blue;
+}
+.fa-spotify:hover{
+    color: green;
+}
+.fa-instagram:hover{
+    color: magenta;
+}
+.fa-youtube:hover{
+    color: red;
+}
+/***************************************************/
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    margin: 140px 0px 50px 10px;
+    text-transform: uppercase;
+}
+h3{
+    font-weight: normal;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.descripcion{
+    line-height: 20px;
+    color:grey;
+    list-style: none;
+    margin: 20px 0px 50px 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.descripcion li a{
+    text-decoration: none;
+    color: grey;
+}
+.subtitulos{
+    font-family: 'Raleway', sans-serif;
+    margin: 90px 0px 20px 10px;
+    font-size:  30px;
+    text-transform: uppercase;
+}
+#album{
+    margin-left: 10px;
+}
+
+ol{
+    margin: 20px 0px 20px 0px;
+    padding-left: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    margin:10px 0px 20px 10px ; 
+}
+.music_anclaBack{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.video{
+    margin-left: 10px;
+}
+
+
+
